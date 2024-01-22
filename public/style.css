@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+
+  .completed {
+    text-decoration: line-through; /* Add a strikethrough effect for completed tasks */
+    color: #888; /* Change the color of completed tasks */
+  }
+  
